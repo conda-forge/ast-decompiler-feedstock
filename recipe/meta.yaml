@@ -1,5 +1,5 @@
 {% set name = "ast-decompiler" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ast_decompiler-{{ version }}.tar.gz
-  sha256: efc3a507e5f8963ec7b4b2ce2ea693e3755c2f52b741c231bc344a4526738337
+  sha256: daef5ca5c2bcb9ba7cf72a9308c7cd596c092d7201c0bbaf28947c721ce26441
 
 build:
   noarch: python
